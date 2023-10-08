@@ -1,0 +1,1 @@
+<template>I am shop</template>

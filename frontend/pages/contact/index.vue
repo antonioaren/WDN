@@ -1,0 +1,1 @@
+<template>I am contact</template>

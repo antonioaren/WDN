@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "WDN-template"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Arenas <antonioaren2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.5"
+load-dotenv = "^0.1.0"
+dj-database-url = "^2.1.0"
+psycopg2 = "^2.9.8"
+wagtail = "^5.1.2"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
